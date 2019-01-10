@@ -219,6 +219,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.s5k3l8_ofilm.low.lux=379 \
     persist.s5k3l8_ofilm.light.lux=367
 
+# HAL1 apps list
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner
+
 #
 # PROPERTIES FOR IMS
 #
