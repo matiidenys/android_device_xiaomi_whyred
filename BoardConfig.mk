@@ -231,6 +231,9 @@ VENDOR_SECURITY_PATCH := 2019-01-01
 # Seccomp
 BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 
+# Ignore SELinux neverallows
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
