@@ -1,21 +1,26 @@
 [
   {
-    "repository" : "vendor_xiaomi",
-    "target_path": "vendor/xiaomi"
+    "remote": "github",
+    "repository": "akhilnarang/whyred",
+    "target_path": "kernel/xiaomi/whyred",
+    "branch": "pie"
   },
   {
-    "repository" : "kernel_xiaomi_whyred",
-    "target_path": "kernel/xiaomi/whyred"
+    "remote": "github",
+    "repository": "root2raj/vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "lineage"
   },
   {
-    "repository": "LineageOS/android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings",
-    "branch": "lineage-16.0",
-    "remote": "github"
-  },
-  {
-    "repository": "vendor_MiuiCamera",
+    "remote": "github",
+    "repository": "PixelExperience-Devices/vendor_MiuiCamera",
     "target_path": "vendor/MiuiCamera",
     "branch": "pie-whyred"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0"
   }
 ]
